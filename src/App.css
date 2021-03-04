@@ -1,38 +1,75 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h1 {
+  margin: 24px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+#semi-final,
+#final {
+  display: flex;
+  flex-direction: column;
+}
+
+.match {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+  align-items: center;
+  margin: 12px auto;
+  padding: 8px;
+
+  border: 1px black solid;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 4px auto;
+}
+
+.champion span,
+.team span {
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.team .goals {
+  width: 48px;
+  padding: 4px 8px;
+  margin-left: 8px;
+  text-align: center;
+  -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+}
+
+#champion {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

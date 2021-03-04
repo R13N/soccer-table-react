@@ -1,0 +1,114 @@
+{
+  "squads": 
+  [
+    {"groupA": [
+    {
+      "name": "russia",
+      "matches": 0,
+      "wins": 0,
+      "ties": 0,
+      "defeats": 0,
+      "goalsPro": 0,
+      "goalsConceded": 0,
+      "goalDifference": 0
+    },
+    {
+      "name": "uruguai",
+      "matches": 0,
+      "wins": 0,
+      "ties": 0,
+      "defeats": 0,
+      "goalsPro": 0,
+      "goalsConceded": 0,
+      "goalDifference": 0
+    },
+    {
+      "name": "egito",
+      "matches": 0,
+      "wins": 0,
+      "ties": 0,
+      "defeats": 0,
+      "goalsPro": 0,
+      "goalsConceded": 0,
+      "goalDifference": 0
+    },
+    {
+      "name": "arabia",
+      "matches": 0,
+      "wins": 0,
+      "ties": 0,
+      "defeats": 0,
+      "goalsPro": 0,
+      "goalsConceded": 0,
+      "goalDifference": 0
+    }
+    ]},
+    {"groupB":[
+      {}
+    ]}
+  ],
+  "matches":
+    [
+      {"groupA": [
+        {
+          "id": "1",
+          "date":"14 jun",
+          "hour": "12h",
+          "location": "Moscou - Lujniki",
+          "homeTeamName":"russia",
+          "awayTeamName":"arabia",
+          "matchWinner": ""
+        },
+        {
+          "id": "2",
+          "date":"15 jun",
+          "hour": "9h",
+          "location": "Ecaterimburgo",
+          "homeTeamName":"egito",
+          "awayTeamName":"uruguai",
+          "matchWinner": ""
+        },
+        {
+          "id": "3",
+          "date":"19 jun",
+          "hour": "15h",
+          "location": "São Petesburgo",
+          "homeTeamName":"russia",
+          "awayTeamName":"egito",
+          "matchWinner": ""
+        },
+        {
+          "id": "4",
+          "date":"20 jun",
+          "hour": "12h",
+          "location": "Rostov",
+          "homeTeamName":"uruguai",
+          "awayTeamName":"arabia",
+          "matchWinner": ""
+        },
+        {
+          "id": "5",
+          "date":"25 jun",
+          "hour": "11h",
+          "location": "Samara",
+          "homeTeamName":"uruguai",
+          "awayTeamName":"russia",
+          "matchWinner": ""
+        },
+        {
+          "id": "6",
+          "date":"25 jun",
+          "hour": "11h",
+          "location": "Volvogrado",
+          "homeTeamName":"arabia",
+          "awayTeamName":"egito",
+          "matchWinner": ""
+        }
+      ]},
+      {
+       "groupB": [
+         {}
+       ] 
+      }
+    ]
+}
