@@ -23,12 +23,6 @@
   width: 50%;
 }
 
-#semi-final,
-#final {
-  display: flex;
-  flex-direction: column;
-}
-
 .match {
   display: flex;
   flex-direction: column;
@@ -41,7 +35,8 @@
   border: 1px black solid;
 }
 
-.team {
+.awayTeam,
+.homeTeam {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -49,12 +44,14 @@
 }
 
 .champion span,
-.team span {
+.awayTeam span,
+.homeTeam span {
   text-transform: uppercase;
   width: 100px;
 }
 
-.team .goals {
+.awayGoals,
+.homeGoals {
   width: 48px;
   padding: 4px 8px;
   margin-left: 8px;
